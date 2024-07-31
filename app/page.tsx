@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const Page = () => {
   const paragraph1 = `
-    A few weeks ago, Franky Roberts on our Talent Team shared a quote from Roger Federer’s commencement speech at Dartmouth. Federer was born on August 8, 1981, in Basel, Switzerland, and is regarded as one of the greatest tennis players ever. He started young and won the Wimbledon boys’ singles and doubles in 1998. Federer would win 20 Grand Slam singles, including eight from Wimbledon (a record for men), six from Australia, five from the US, and one from France. He won Gold in doubles at the 2008 Beijing Olympics and Silver in singles at the 2012 London Olympics. He held the World #1 ranking for a record total of 310 weeks. He is known for his versatile and fluid game and outstanding sportsmanship on and off the court
+    A few weeks ago, Franky Roberts on our Talent Team shared a quote from Roger Federers commencement speech at Dartmouth. Federer was born on August 8, 1981, in Basel, Switzerland, and is regarded as one of the greatest tennis players ever. He started young and won the Wimbledon boys’ singles and doubles in 1998. Federer would win 20 Grand Slam singles, including eight from Wimbledon (a record for men), six from Australia, five from the US, and one from France. He won Gold in doubles at the 2008 Beijing Olympics and Silver in singles at the 2012 London Olympics. He held the World #1 ranking for a record total of 310 weeks. He is known for his versatile and fluid game and outstanding sportsmanship on and off the court
   `;
 
   const paragraph2 = `
@@ -79,7 +79,7 @@ const Page = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>It's only a point</h1>
+      <h1 style={styles.header}>It&rsquo;s only a point</h1>
       <div className="flex flex-row justify-center items-center gap-x-6 mb-8 text-sm">
         <div className="bg-indigo-100 text-indigo-800 px-2 py-1 rounded-full">
           text by Alfred Lin
